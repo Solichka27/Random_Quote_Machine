@@ -1,0 +1,18 @@
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#main-box{
+  height: 300px;
+  width: 500px;
+  background-color: white;
+}
+
+#additional_box{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:white;
+}
