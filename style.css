@@ -1,18 +1,26 @@
 body{
-    background-color: blue;
+    background-color: #C8D8E7;
+}
+#page{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items:center;
+    height: 900px;
+    flex-direction: column;
 }
 #main-box{
-  height: 300px;
-  width: 500px;
-  background-color: white;
+    height: auto;
+    width: 700px;
+    background-color: white;
+}
+#quote{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.75em;
 }
 
 #additional_box{
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  color:white;
+    display: block;
+    color:white;
 }
