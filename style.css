@@ -13,6 +13,11 @@ body{
     height: auto;
     width: 700px;
     background-color: white;
+    padding: 20px 20px;
+    border-radius: 30px;
+}
+button{
+    border-radius: 5px;
 }
 #quote{
     text-align: center;
@@ -24,3 +29,29 @@ body{
     display: block;
     color:white;
 }
+#authour{
+    padding-top: 20px;
+    text-align: end;
+}
+#block2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.btn-social{
+    display: inline-flex;
+}
+.twitter, .tumbler{
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: none;
+}
+.twitter{
+    background-image: url('twitter.png');
+}
+.tumbler{
+    background-image: url('tumbler.jpeg');
+}
+
