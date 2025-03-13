@@ -17,7 +17,7 @@ body{
     border-radius: 30px;
 }
 button{
-    border-radius: 5px;
+    border-radius: 6px;
 }
 #quote{
     text-align: center;
@@ -41,17 +41,17 @@ button{
 .btn-social{
     display: inline-flex;
 }
-.twitter, .tumbler{
+#twitter, #tumblr{
     width: 35px;
     height: 35px;
     background-position: center;
     background-size: contain;
     background-repeat: none;
 }
-.twitter{
+#twitter{
     background-image: url('twitter.png');
 }
-.tumbler{
+#tumblr{
     background-image: url('tumbler.jpeg');
 }
 
