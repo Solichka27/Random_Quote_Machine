@@ -21,10 +21,15 @@ let arrayQuote  = [
     "Tis better to have loved and lost than never to have loved at all.  - Alfred Lord Tennyson"
 ];
 
+console.log(arrayQuote);
+let box = document.createElement("p");
 
+box.append(arrayQuote);
+box.innerHTML ="Hello";
 newQuote.addEventListener("click", function(){
-    quote.innerHTML = " ";
-    author.innerHTML = " ";
+    quote.innerHTML = " Tis better to have loved and lost than never to have loved at all";
+    author.innerHTML = "Alfred Lord Tennyson ";
+    document.body.style.background = "silver";
 })
 
 //btn-social
