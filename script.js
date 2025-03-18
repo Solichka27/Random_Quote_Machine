@@ -27,9 +27,12 @@ let box = document.createElement("p");
 box.append(arrayQuote);
 box.innerHTML ="Hello";
 newQuote.addEventListener("click", function(){
-    quote.innerHTML = " Tis better to have loved and lost than never to have loved at all";
-    author.innerHTML = "Alfred Lord Tennyson ";
+
     document.body.style.background = "silver";
+    for (let i=0; i <= arrayQuote.length; i++){
+        quote.innerHTML = arrayQuote[i];
+        author.innerHTML = "Alfred Lord Tennyson ";
+    }
 })
 
 //btn-social
